@@ -172,7 +172,7 @@ Splitting each window into many small, equal parts (say 10 × 10ms) does make th
 **Prerequisites:** Go 1.26 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/golang-ratelimiters.git
+git clone https://github.com/yash-dhingra/golang-ratelimiters.git
 cd golang-ratelimiters/rate-limiters
 go run .
 ```

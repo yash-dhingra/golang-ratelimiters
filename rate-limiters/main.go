@@ -24,6 +24,7 @@ func FibonacciCaller(c *gin.Context) {
 	num, err := strconv.Atoi(c.Param("num"))
 	if err != nil {
 		c.String(http.StatusNotAcceptable, "Invalid Input, please use correct input number")
+		return
 	}
 
 	output := fibonacci(num)
